@@ -6,7 +6,12 @@
     <e p="E:\UnityProjects\OneDayBuild1\SpaceTurtle" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EnemyLifeTime.cs" t="Include" />
+        <e p="EnemyMove.cs" t="Include" />
+        <e p="HealthBar.cs" t="Include" />
+        <e p="HealthSystem.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
+        <e p="Spawner.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
