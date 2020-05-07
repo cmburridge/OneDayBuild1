@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1095665565675028}
   m_LocalRotation: {x: -0, y: -0, z: -0.9283798, w: 0.37163302}
-  m_LocalPosition: {x: 4.3406086, y: -1.9943337, z: 0}
+  m_LocalPosition: {x: 3.750609, y: 0.71737844, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4200707839368700}
@@ -81,10 +81,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00743033, y: -0.03640829}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -95,7 +95,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.49930403, y: 0.9271834}
   m_EdgeRadius: 0
 --- !u!114 &114261089551908586
 MonoBehaviour:
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9434173b6f19713448d1ce8c0b196546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -4
+  speed: -6
   enemyPos: {fileID: 4936855004402042}
 --- !u!114 &114317820211515930
 MonoBehaviour:
