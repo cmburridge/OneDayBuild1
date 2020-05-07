@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 61012981223840182}
   m_Layer: 0
   m_Name: Trash
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

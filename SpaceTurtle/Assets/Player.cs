@@ -41,9 +41,12 @@ public class Player : MonoBehaviour
 
 	public void OnTriggerEnter2D(Collider2D other)
 	{
-		animator.SetBool("IsHurt", true);
-		hitSound.Play();
-		TakeDamage(1);
+		if (other.tag == "Enemy")
+		{
+			animator.SetBool("IsHurt", true);
+            		hitSound.Play();
+            		TakeDamage(1);
+		}
 	}
 	
 	void TakeDamage(int damage)

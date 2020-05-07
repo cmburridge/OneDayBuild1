@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+	private Vector2 screenBounds;
 	public float upSpeed;
 	public float speed;
 	public Transform characterPos;
-	
-	void Start () 
-	{
-		
-	}
-	
-	void FixedUpdate () 
+
+
+	void Update () 
 	{
 		if (Input.GetKey(KeyCode.S))
 		{
