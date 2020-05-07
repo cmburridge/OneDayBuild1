@@ -33,12 +33,12 @@
         <option value="$PROJECT_DIR$/Assets/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Spin.cs" />
         <option value="$PROJECT_DIR$/Assets/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Boundaries.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Transport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +90,7 @@
       <updated>1588795973311</updated>
       <workItem from="1588795979010" duration="7601000" />
       <workItem from="1588806573847" duration="16601000" />
-      <workItem from="1588829914702" duration="311000" />
+      <workItem from="1588829914702" duration="1140000" />
     </task>
     <servers />
   </component>
