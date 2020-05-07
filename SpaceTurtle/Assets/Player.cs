@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
 	public HealthBar healthBar;
 	public Animator animator;
 	public AudioSource hitSound;
+	public GameObject pauseMenuUi;
 	
 	void Start ()
 	{
@@ -24,6 +26,17 @@ public class Player : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
+
+		if (currentHealth <= 0)
+		{
+			PlayerGameOver();
+		}
+	}
+
+	public void PlayerGameOver()
+	{
+		pauseMenuUi.SetActive(true);
+		Time.timeScale = 0f;
 	}
 
 	public void OnTriggerEnter2D(Collider2D other)
