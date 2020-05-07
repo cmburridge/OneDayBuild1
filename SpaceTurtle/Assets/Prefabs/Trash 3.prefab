@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4064888118974986}
   - component: {fileID: 212752459301832458}
+  - component: {fileID: 114162021572371058}
   m_Layer: 0
   m_Name: recycle_items_11
   m_TagString: Untagged
@@ -65,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000365515344964}
   m_LocalRotation: {x: -0, y: -0, z: -0.44205946, w: 0.89698577}
-  m_LocalPosition: {x: 3.958277, y: 0.6654616, z: 0}
+  m_LocalPosition: {x: -17.728668, y: -4.0813375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4064888118974986}
@@ -108,8 +109,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9434173b6f19713448d1ce8c0b196546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -6
+  speed: -10
   enemyPos: {fileID: 4804124020562862}
+--- !u!114 &114162021572371058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730156614168468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d205059b2c79b724c85f4d0164ae024b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114408994153393934
 MonoBehaviour:
   m_ObjectHideFlags: 1

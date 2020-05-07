@@ -18,7 +18,7 @@ public class Spawner : MonoBehaviour
 
     IEnumerator SpawnRandom()
     {
-        yield return new WaitForSeconds(Random.Range(3, 7));
+        yield return new WaitForSeconds(Random.Range(2, 6));
         Instantiate(objects[UnityEngine.Random.Range(0, objects.Length - 1)], spawnLocal.position, spawnLocal.rotation);
         StartCoroutine(SpawnRandom());
     }

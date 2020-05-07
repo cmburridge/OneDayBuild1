@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4200707839368700}
   - component: {fileID: 212538688495198378}
+  - component: {fileID: 114438215226136114}
   m_Layer: 0
   m_Name: recycle_items_15
   m_TagString: Untagged
@@ -65,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1095665565675028}
   m_LocalRotation: {x: -0, y: -0, z: -0.9283798, w: 0.37163302}
-  m_LocalPosition: {x: 3.750609, y: 0.71737844, z: 0}
+  m_LocalPosition: {x: -22.73511, y: -1.7957888, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4200707839368700}
@@ -108,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9434173b6f19713448d1ce8c0b196546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -6
+  speed: -10
   enemyPos: {fileID: 4936855004402042}
 --- !u!114 &114317820211515930
 MonoBehaviour:
@@ -119,6 +120,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b62a2e807b1284da6c47b18117fc3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114438215226136114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393866357646016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d205059b2c79b724c85f4d0164ae024b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212538688495198378

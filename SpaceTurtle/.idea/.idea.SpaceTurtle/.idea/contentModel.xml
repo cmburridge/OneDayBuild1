@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\cmbur\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,6 +6,7 @@
     <e p="E:\UnityProjects\OneDayBuild1\SpaceTurtle" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Countdown.cs" t="Include" />
         <e p="EnemyLifeTime.cs" t="Include" />
         <e p="EnemyMove.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
@@ -13,6 +14,7 @@
         <e p="Movement.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="Spawner.cs" t="Include" />
+        <e p="Spin.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
