@@ -12,7 +12,9 @@
         <e p="HealthBar.cs" t="Include" />
         <e p="HealthSystem.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
+        <e p="PauseMenu.cs" t="Include" />
         <e p="Player.cs" t="Include" />
+        <e p="SceneManager.cs" t="Include" />
         <e p="Spawner.cs" t="Include" />
         <e p="Spin.cs" t="Include" />
       </e>
