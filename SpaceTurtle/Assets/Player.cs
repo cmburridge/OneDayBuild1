@@ -24,13 +24,10 @@ public class Player : MonoBehaviour
 	{
 		if (currentHealth <= 0)
 		{
-			Destroy(gameObject);
-		}
-
-		if (currentHealth <= 0)
-		{
+			gameObject.SetActive(false);
 			PlayerGameOver();
 		}
+		
 	}
 
 	public void PlayerGameOver()
@@ -46,7 +43,16 @@ public class Player : MonoBehaviour
 			animator.SetBool("IsHurt", true);
             		hitSound.Play();
             		TakeDamage(1);
+		
+		}else if (other.tag == "PUp")
+		{
+			HealDamage(1);
 		}
+	}
+	void HealDamage(int damage)
+	{
+		currentHealth += damage;
+		healthBar.SetHealth(currentHealth);
 	}
 	
 	void TakeDamage(int damage)

@@ -8,6 +8,7 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>Builds</Path>
       <Path>Library</Path>
       <Path>Scenes</Path>
       <Path>Temp</Path>

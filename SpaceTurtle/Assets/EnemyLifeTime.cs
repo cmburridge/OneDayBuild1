@@ -10,10 +10,18 @@ public class EnemyLifeTime : MonoBehaviour {
 	{
 		StartCoroutine(DestroyTrash());
 	}
-
+	
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "Player")
+		{
+        		Destroy(gameObject);	
+		}
+	}
+	
 	private IEnumerator DestroyTrash()
 	{
-		yield return new WaitForSeconds(6f);
+		yield return new WaitForSeconds(7f);
 		Destroy(gameObject);
 	}
 }

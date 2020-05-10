@@ -9,9 +9,6 @@ public class Transport : MonoBehaviour
 	public Transform destination;
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Player")
-		{
-			other.transform.position = destination.position;
-		}
+		other.transform.position = destination.position;
 	}
 }
