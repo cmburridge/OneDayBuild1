@@ -23,7 +23,7 @@ public class PowerUpSpawner : MonoBehaviour {
 
 	IEnumerator SpawnRandom()
 	{
-		yield return new WaitForSeconds(Random.Range(40, 60));
+		yield return new WaitForSeconds(Random.Range(30, 100));
 		Instantiate(objects[UnityEngine.Random.Range(0, objects.Length - 1)], spawnLocal.position, spawnLocal.rotation);
 		StartCoroutine(SpawnRandom());
 	}
