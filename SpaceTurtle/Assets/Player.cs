@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 	public Animator animator;
 	public AudioSource hitSound;
 	public GameObject pauseMenuUi;
+	public Color charColor;
 	
 	void Start ()
 	{
@@ -47,8 +48,17 @@ public class Player : MonoBehaviour
 		}else if (other.tag == "PUp")
 		{
 			HealDamage(1);
+			ChangeColor();
 		}
 	}
+
+	IEnumerator ChangeColor()
+	{
+		charColor = Color.red;
+		yield return new WaitForSeconds(2f);
+		charColor = Color.cyan;
+	}
+
 	void HealDamage(int damage)
 	{
 		currentHealth += damage;

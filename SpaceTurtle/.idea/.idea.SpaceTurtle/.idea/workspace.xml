@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9cf6a864-120b-4259-9643-1a6d63f81768" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceTurtle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceTurtle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PowerUpSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PowerUpSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Transport.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyLifeTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/PowerUpSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +98,8 @@
       <workItem from="1588806573847" duration="16601000" />
       <workItem from="1588829914702" duration="1140000" />
       <workItem from="1589145540367" duration="4521000" />
-      <workItem from="1589307327263" duration="825000" />
+      <workItem from="1589307327263" duration="1366000" />
+      <workItem from="1589565919202" duration="630000" />
     </task>
     <servers />
   </component>
